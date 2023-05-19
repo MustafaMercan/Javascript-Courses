@@ -17,6 +17,9 @@
                     <h1>Add New Book</h1>
                 </div>
                 <form>
+                    <span class="error-message"></span>
+                    <span class="number-message"></span>
+
                     <div class="form-element">
                         <label for="title">Title:</label>
                         <input type="text" id="title" name="title" required>
@@ -27,22 +30,23 @@
                     </div>
                     <div class="form-element">
                         <label for="total-pages">Total Pages:</label>
-                        <input type="number" id="total-pages" name="total-pages" required>
+                        <input type="text" id="total-pages" name="total-pages" required>
                     </div>
                     <div class="form-element">
                         <label for="completed-pages">Completed Pages:</label>
-                        <input type="number" id="completed-pages" name="completed-pages" required>
+                        <input type="text" id="completed-pages" name="completed-pages" required>
                     </div>
                     
                     <div class="form-buttons">
-                        <button type="submit">Submit</button>
-                        <button type="submit">Cancel</button>
+                        <button class="submit-btn" type="submit">Submit</button>
+                        <button class = "cancel-btn" type="submit">Cancel</button>
                     </div>
 
                 </form>
 
             </div>
         </div>
+        
         <div class="top-bar">
             <h1>Logo</h1>
             <h1>Library</h1>
@@ -57,55 +61,18 @@
                     <span>+</span>
 
                 </div>
-                <div class="card">
-                    <p> Title : <span> Test 1</span></p> 
-                    <p> Author : <span> Test 1</span></p> 
-
-                    <p> Total Pages : <span> Test 1</span></p> 
-                    <p> Completed Pages : <span> Test 1</span></p>
-
-                    <button class="completed">Completed</button>
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-                <div class="card">
-                    Card
-                </div>
-
-
 
             </div>
 
             <div class="information-screen">
-                <div class="information-books"></div>
+                <div class="information-books">
+                    <p>Books <span>0</span> </p>
+                    <p>Completed Books <span>0</span> </p>
+                    <p>Total Pages <span>0</span> </p>
+                    <p>Completed Pages <span>0</span> </p>
+                </div>
                 <div class="reset-books">
-                    <button type="button"> Reset All Books</button>
+                    <button class = "reset-btn" type="button"> Reset All Books</button>
                 </div>
             </div>
         </div>
@@ -114,7 +81,7 @@
 
 
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
