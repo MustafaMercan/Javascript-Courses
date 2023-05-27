@@ -1,9 +1,9 @@
 
 # Project: Library
 
-## Subject [https://www.theodinproject.com/lessons/node-path-javascript-library]
+## Subject https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe
 
-## LiveDemo: [https://odinpath-lib-project.netlify.app/]
+## LiveDemo: https://odinpath-tic-tac-toe-project.netlify.app/
 
 
 
