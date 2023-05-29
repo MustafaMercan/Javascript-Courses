@@ -1,5 +1,5 @@
 
-# Project: Library
+# Project: Tic-Tac-Toe
 
 ## Subject https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe
 
